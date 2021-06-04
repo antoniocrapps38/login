@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Login</title>
+    <link href="styles.css" type="text/css" rel="stylesheet">
+  </head>
+  <body>
+
+<form name="myForm" action="action_page.php" onsubmit = "return validateForm()" method="post">
+<div class="container">
+  <label for="username"><b>UserName:</b></label>
+  <input id="username" type="text" name="username">
+<label for="password"><b>Password:</b></label>
+  <input id="password" type="password" name="password">
+
+
+  <button type="submit">Submit</button>
+
+  <label>
+  <input type="checkbox" checked="checked" name="remember">Remember Me
+  </label>
+  </div>
+
+  <div class="container">
+    <button type="button" class="cancelbtn">Cancel</button>
+  <span class="psw">Forgot <a href="#">Password?</a></span>
+  </div>
+  </form>
+
+  <script>src="index.js"</script>
+  </body>
+</html>
